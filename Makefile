@@ -1,6 +1,6 @@
 CXX=c++
 INC=./include
-CXXFLAGS=-Wall -std=c++14 -I$(INC)
+CXXFLAGS=-Wall -std=c++14 -g -I$(INC)
 
 SRCS = $(wildcard src/*.cpp)
 TARGET = raytracer
