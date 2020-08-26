@@ -2,8 +2,10 @@
 #define VEC3_H
 
 #include <iostream>
-#include <math.h>
-#include <stdlib.h>
+#include <cmath>
+#include <cstdlib>
+
+// 3D Vector class w full operator overloading
 
 class vec3 {
 public:
